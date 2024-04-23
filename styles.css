@@ -1,0 +1,39 @@
+/* *{
+    margin: 0PX;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'sans-serif';
+    font-size: 40px;
+    width: 100%;
+    min-height: 100vh;
+} */
+
+/* [class ^="box_"]{
+background-color: skyblue;
+display: grid;  
+place-items: center;
+}
+.container{
+    display: grid;
+    height: 100vh; 
+     grid-row: 200px;
+    grid-column: 200px;
+    grid-template-columns: 100px 200px auto 100px;
+    gap: 20px;
+    justify-items:center;
+} */ 
+
+.navigation{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.navigation li{
+    flex-shrink: 1;
+    flex-grow: 1; 
+}
+
